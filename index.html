@@ -205,7 +205,94 @@
       <input type="button" class="warn-outline" value="warn-outline">
       <input type="button" class="success-outline" value="success-outline">
       <input type="button" class="info-outline" value="info-outline">
+      
+      <h2>Flex</h2>
+      <hr/>
+      <p>Add <code>class="flex"</code>in element.</p>
+      <div class="alert">
+        <div class="flex" style="border: solid 0.5px #000;background:#ccc;">
+          <div style="border: solid 0.5px #000;background:#aaa;">Item1</div>
+          <div style="border: solid 0.5px #000;background:#aaa;">Item2</div><div style="border: solid 0.5px #000;background:#aaa;">Item3</div></div>
+      </div>
+
+    <h3>Jusify Content</h3>
+    <p>Add <code>class="j-ct-start" , "j-ct-center" , "j-ct-end" , "j-ct-sbt"</code>in element.</p>
+    <div class="alert">
+    <p>start - j-ct-start</p>
+    <div class="flex j-ct-start" style="border: solid 0.5px #000;background:#ccc;">
+        <div style="border: solid 0.5px #000;background:#aaa;">Item1-start</div>
+        <div style="border: solid 0.5px #000;background:#aaa;">Item2-start</div><div style="border: solid 0.5px #000;background:#aaa;">Item3-start</div></div>
+      <p>center - j-ct-center</p>
+      <div class="flex j-ct-center" style="border: solid 0.5px #000;background:#ccc;">
+        <div style="border: solid 0.5px #000;background:#aaa;">Item1-center</div>
+        <div style="border: solid 0.5px #000;background:#aaa;">Item2-center</div><div style="border: solid 0.5px #000;background:#aaa;">Item3-center</div></div>
+      <p>end - j-ct-end</p>
+      <div class="flex j-ct-end" style="border: solid 0.5px #000;background:#ccc;">
+        <div style="border: solid 0.5px #000;background:#aaa;">Item1-end</div>
+        <div style="border: solid 0.5px #000;background:#aaa;">Item2-end</div><div style="border: solid 0.5px #000;background:#aaa;">Item3-end</div></div>
+      <p>space between - j-ct-sbt</p>
+      <div class="flex j-ct-sbt" style="border: solid 0.5px #000;background:#ccc;">
+        <div style="border: solid 0.5px #000;background:#aaa;">Item1-sbt</div>
+        <div style="border: solid 0.5px #000;background:#aaa;">Item2-sbt</div><div style="border: solid 0.5px #000;background:#aaa;">Item3-sbt</div></div>
     </div>
+
+    <h3>Align Items</h3>
+    <p>Add <code>class="a-it-start" , "a-it-center" , "a-it-end"</code>in element.</p>
+    <div class="alert">
+      <p>start - a-it-start</p>
+      <div class="flex a-it-start" style="border: solid 0.5px #000;background:#ccc;height: 50px;">
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item1-start</div>
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item2-start</div><div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item3-start</div></div>
+
+      <p>center - a-it-center</p>
+      <div class="flex a-it-center" style="border: solid 0.5px #000;background:#ccc;height: 50px;">
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item1-center</div>
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item2-center</div><div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item3-center</div></div>
+
+      
+      <p>end - a-it-end</p>
+      <div class="flex a-it-end" style="border: solid 0.5px #000;background:#ccc;height: 50px;">
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item1-end</div>
+        <div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item2-end</div><div style="border: solid 0.5px #000;background:#aaa;height:25px;">Item3-end</div></div>
+    </div>
+
+    <h3>Align Self</h3>
+    <p>Add <code>class="a-s-start" , "a-s-center" ,"a-s-end"</code>in element.</p>
+    <div class="alert">
+      <p>start - a-s-start , center - a-s-center , end - a-s-end</p>
+      <div class="flex" style="border: solid 0.5px #000;background:#ccc;height: 50px;">
+        <div class="a-s-start" style="border: solid 0.5px #000;background:#aaa;height:25px;">Item1-start</div>
+        <div class="a-s-center" style="border: solid 0.5px #000;background:#aaa;height:25px;">Item2-center</div>
+        <div class="a-s-end" style="border: solid 0.5px #000;background:#aaa;height:25px;">Item3-end</div></div>
+    </div>
+
+    <h2>Responsive</h2>
+    <hr/>
+    <p>Add <code>class="small-hide" , "med-hide" , "large-hide"</code>in element.</p>
+    <div class="alert info">Try to resize display and noting element bottom here...</div>
+    <div class="alert success med-hide large-hide">Small screen</div>
+    <div class="alert warn small-hide large-hide">Medium screen</div>
+    <div class="alert danger small-hide med-hide">Large screen</div>
+    <table class="alert">
+      <tr  style="width:100%;">
+        <th>class name</th>
+        <th>hide at screen width</th>
+      </tr>
+      <tr style="width:100%;">
+        <td>small-hide</td>
+        <td>&gt;= 640px</td>
+      </tr>
+      <tr style="width:100%;">
+        <td>med-hide</td>
+        <td>&gt;641px , &lt;= 1000px</td>
+      </tr>
+      <tr style="width:100%;">
+        <td>large-hide</td>
+        <td>&gt; 1000px</td>
+      </tr>
+    </table>
+      
+   </div>
   </div>
   <script src="script.js"></script>
   
