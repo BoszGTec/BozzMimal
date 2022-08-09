@@ -20,9 +20,13 @@ add html tag`link rel="stylesheet" href={link}`in html.
 </html>
 ```
 #### Usewith Gitpage
-```https://boszgtec.github.io/BozzMimal/BozzMimal.css```
+```
+https://boszgtec.github.io/BozzMimal/BozzMimal.css
+```
 #### Usewith Gitpage
-```soon```
+```
+soon
+```
 
 ## Docs
 [BozzMimal](https://boszgtec.github.io/BozzMimal/)
