@@ -23,7 +23,7 @@ add html tag`link rel="stylesheet" href={link}`in html.
 ```
 https://boszgtec.github.io/BozzMimal/BozzMimal.css
 ```
-#### Usewith Gitpage
+#### Usewith CDN
 ```
 soon
 ```
