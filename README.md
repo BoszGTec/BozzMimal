@@ -5,7 +5,7 @@
 Just Insert Link Tag.
 ### Quick start
 add html tag`link rel="stylesheet" href={link}`in html.
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,3 +19,10 @@ add html tag`link rel="stylesheet" href={link}`in html.
   </body>
 </html>
 ```
+#### Usewith Gitpage
+`https://boszgtec.github.io/BozzMimal/BozzMimal.css`
+#### Usewith Gitpage
+`soon`
+
+## Docs
+[BozzMimal](https://boszgtec.github.io/BozzMimal/)
