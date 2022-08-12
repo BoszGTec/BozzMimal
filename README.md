@@ -25,7 +25,7 @@ https://boszgtec.github.io/BozzMimal/BozzMimal.css
 ```
 #### Usewith CDN
 ```
-soon
+https://cdn.jsdelivr.net/gh/BoszGTec/BozzMimal/BozzMimal.min.css
 ```
 
 ## Docs
