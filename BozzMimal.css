@@ -1,9 +1,13 @@
 /*
+================================================================
 (c) BozzMimal-By-BoszGTec : BoszGTec@protonmail.com 
 github : https://github.com/BoszGTec/BozzMimal/
 font from : google font (Prompt)
 icon from :  google font
+================================================================
 */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 :root{
   --main-color : #223;
@@ -17,6 +21,7 @@ icon from :  google font
   --elem-round: 50px;
   --elem-round-2: 5px;
 }
+
 *{
   appearance: none;
   box-sizing: border-box;
@@ -29,19 +34,23 @@ icon from :  google font
   transition: display 0s , all 0.5s;
   scroll-behavior: smooth;
 }
+
 body{
   background-color: var(--main-bg-color);
   color: var(--main-color);
 }
+
 h1,h2,h3,h4,h5{
   width: fit-content;
   font-weight: 600;
 }
+
 hr{
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   border: solid 0.5px var(--main-color);
 }
+
 pre,code{
   font-family: monospace;
   background-color: var(--bg-elem-color);
@@ -50,12 +59,15 @@ pre,code{
   margin-bottom: 10px;
   border-radius: var(--elem-round-2);
 }
+
 pre{
   padding: 5px;
 }
+
 input,textarea{
   margin-top: 5px;
 }
+
 input,button,select,textarea,.bt{
   width:100%;
   padding: 3px;
@@ -64,9 +76,11 @@ input,button,select,textarea,.bt{
   border-radius: var(--elem-round);
   overflow: hidden;
 }
+
 textarea{
   border-radius: var(--elem-round-2);
 }
+
 input[type="button"],input[type="submit"],input[type="number"],button,select,bt{
   width:auto;
   background: var(--main-bg-color);
@@ -113,6 +127,8 @@ input:checked{
   background-image : url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTE4LjkgMzUuNyA3LjcgMjQuNWwyLjE1LTIuMTUgOS4wNSA5LjA1IDE5LjItMTkuMiAyLjE1IDIuMTVaIi8+PC9zdmc+");
   background-size: 10px 10px;
 }
+
+
 .flex{
   display: flex;
 }
@@ -159,6 +175,8 @@ input:checked{
 .t-a-end{
   text-align: end;
 }
+
+
 .fill,input.fill{
   background-color:  var(--main-color);
   color: var(--main-bg-color);
@@ -286,6 +304,8 @@ input:checked{
   box-shadow: rgba(225,225,255,0.8) 0px 0px 0px 2px;
 
 }
+
+
 .alert{
   width:100%;
   border: solid 1px var(--main-color);
@@ -307,6 +327,7 @@ input:checked{
   margin-bottom: 15px;
 }
  
+
 headder{
   position: sticky;
   top:0px;
@@ -328,6 +349,8 @@ headder{
 headder>div:nth-child(1){
   margin-right: 20px;
 }
+
+
 @media screen and (max-width:640px){
   .small-hide{
     display: none;
