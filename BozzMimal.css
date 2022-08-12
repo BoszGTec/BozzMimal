@@ -113,12 +113,10 @@ input:checked{
   background-image : url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTE4LjkgMzUuNyA3LjcgMjQuNWwyLjE1LTIuMTUgOS4wNSA5LjA1IDE5LjItMTkuMiAyLjE1IDIuMTVaIi8+PC9zdmc+");
   background-size: 10px 10px;
 }
-
-
 .flex{
   display: flex;
 }
-.flex-warp{
+.flex-wrap{
   flex-wrap: wrap;
 }
 .j-ct-center{
@@ -161,12 +159,6 @@ input:checked{
 .t-a-end{
   text-align: end;
 }
-
-/*Color */
-/*Inner*/
-/*
-(c) BoszGTec : BoszGTec@protonmail.com
-*/
 .fill,input.fill{
   background-color:  var(--main-color);
   color: var(--main-bg-color);
@@ -229,12 +221,6 @@ input:checked{
   box-shadow: rgba(225,225,255,0.8) 0px 0px 0px 2px;
 
 }
-
-
-/*Outline*/
-/*
-(c) BoszGTec : BoszGTec@protonmail.com
-*/
 .fill-outline,input.fill-outline{
   color:  var(--main-color);
   background-color: var(--main-bg-color);
@@ -300,8 +286,6 @@ input:checked{
   box-shadow: rgba(225,225,255,0.8) 0px 0px 0px 2px;
 
 }
-
-/*Component*/
 .alert{
   width:100%;
   border: solid 1px var(--main-color);
@@ -344,8 +328,6 @@ headder{
 headder>div:nth-child(1){
   margin-right: 20px;
 }
-
-/*Rep*/
 @media screen and (max-width:640px){
   .small-hide{
     display: none;
