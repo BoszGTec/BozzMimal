@@ -1,0 +1,214 @@
+/*
+(c) BozzMimal-By-BoszGTec : BoszGTec@protonmail.com (https://github.com/BoszGTec/BozzMimal/)
+font from : google font (Prompt)
+icon from :  google font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+:root{
+  --main-color : #223;
+  --main-bg-color : #fff;
+  --bg-elem-color : #ddd;
+
+  --cl-danger : #c60700;
+  --cl-warn : #e9c600;
+  --cl-success : #069600;
+  --cl-info : #00afad;
+  --elem-round: 50px;
+  --elem-round-2: 5px;
+}
+
+*{
+  appearance: none;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: var(--main-color);
+  transition: display 0s , all 0.5s;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+h1,h2,h3,h4,h5{
+  width: fit-content;
+  font-weight: 600;
+}
+
+hr{
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  border: solid 0.5px var(--main-color);
+}
+
+pre,code{
+  font-family: monospace;
+  background-color: var(--bg-elem-color);
+  padding: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: var(--elem-round-2);
+}
+
+pre{
+  padding: 5px;
+}
+
+input,textarea{
+  margin-top: 5px;
+}
+
+input,button,select,textarea,.bt{
+  width:100%;
+  padding: 3px;
+  padding-left: 10px;padding-right: 10px;
+  border: solid 1px var(--main-color);
+  border-radius: var(--elem-round);
+  overflow: hidden;
+}
+
+textarea{
+  border-radius: var(--elem-round-2);
+}
+
+input[type="button"],input[type="submit"],input[type="number"],button,select,bt{
+  width:auto;
+  background: var(--main-bg-color);
+  border-radius: var(--elem-round);
+}
+input[type="checkbox"],input[type="radio"]{
+  width: 12px; height: 12px;
+  padding: 0px;
+  vertical-align : baseline;
+}
+input[type="checkbox"]{
+  border-radius: var(--elem-round-2);
+}
+::-webkit-file-upload-button{
+  background: var(--bg-elem-color);
+  font-family: unset;
+  color: unset;
+  border: solid 1px var(--main-color);
+  border-radius: var(--elem-round);
+}
+::-webkit-slider-thumb{
+  border: solid 1px var(--main-color);
+}
+select{
+  background-color:var(--bg-elem-color);
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0ibTI0IDMwLjc1LTEyLTEyIDIuMTUtMi4xNUwyNCAyNi41bDkuODUtOS44NUwzNiAxOC44WiIvPjwvc3ZnPg==");
+  background-size: auto 20px;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  padding-right: 15px;
+}
+
+input:hover,input:focus,textarea:hover,textarea:focus,.bt:hover,button:hover,button:focus,select:hover,select:focus{
+  outline: none 0px;
+  box-shadow:rgba(0,0,0,0.2) 0px 0px 0px 2px;
+}
+input[type="button"]:hover,input[type="button"]:focus,.bt:hover,button:hover,button:focus{
+  background-color:  var(--main-color);
+  color: var(--main-bg-color);
+}
+
+input:checked{
+  background-image : url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTE4LjkgMzUuNyA3LjcgMjQuNWwyLjE1LTIuMTUgOS4wNSA5LjA1IDE5LjItMTkuMiAyLjE1IDIuMTVaIi8+PC9zdmc+");
+  background-size: 10px 10px;
+}
+
+
+.flex{
+  display: flex;
+}
+
+
+.fill,input.fill{
+  background-color:  var(--main-color);
+  color: var(--main-bg-color);
+  --hover-cl:  var(--main-color);
+}
+.danger,input.danger{
+  background-color: var(--cl-danger);
+  color: var(--main-bg-color);
+  --hover-cl:  var(--cl-danger);
+
+}
+.warn,input.warn{
+  background-color:  var(--cl-warn);
+  color: var(--main-color);
+  --hover-cl:  var(--cl-warn);
+
+}
+.success,input.success{
+  background-color:  var(--cl-success);
+  color: var(--main-bg-color);
+  --hover-cl:  var(--cl-success);
+
+}
+.info,input.info{
+  background-color:  var(--cl-info);
+  color: var(--main-bg-color);
+  --hover-cl:  var(--cl-info);
+}
+
+.bt.fill:hover , .bt.fill:focus , button.fill:hover , button.fill:focus , input.fill:hover , input.fill:focus , select.fill:hover , select.fill:focus , textarea.fill:hover , textarea.fill:focus{
+  background-color: unset;
+  color: var(--hover-cl);
+  border-color: var(--hover-cl);
+}
+
+.bt.danger:hover , .bt.danger:focus , button.danger:hover , button.danger:focus , input.danger:hover , input.danger:focus , select.danger:hover , select.danger:focus , textarea.danger:hover , textarea.danger:focus{
+  background-color: unset;
+  color: var(--hover-cl);
+  border-color: var(--hover-cl);
+  box-shadow: rgba(255,0,0,0.2) 0px 0px 0px 2px;
+}
+.bt.warn:hover , .bt.warn:focus , button.warn:hover , button.warn:focus , input.warn:hover , input.warn:focus , select.warn:hover , select.warn:focus , textarea.warn:hover , textarea.warn:focus {
+  background-color: unset;
+  color: var(--hover-cl);
+  border-color: var(--hover-cl);
+  box-shadow: rgba(255,220,100,0.5) 0px 0px 0px 2px;
+}
+.bt.success:hover , .bt.success:focus , button.success:hover , button.success:focus , input.success:hover , input.success:focus , select.success:hover , select.success:focus , textarea.success:hover , textarea.success:focus {
+  background-color: unset;
+  color: var(--hover-cl);
+  border-color: var(--hover-cl);
+  box-shadow: rgba(0,150,0,0.2) 0px 0px 0px 2px;
+
+}
+
+.bt.info:hover , .bt.info:focus , button.info:hover , button.info:focus , input.info:hover , input.info:focus , select.info:hover , select.info:focus , textarea.info:hover , textarea.info:focus {
+  background-color: unset;
+  color: var(--hover-cl);
+  border-color: var(--hover-cl);
+  box-shadow: rgba(225,225,255,0.8) 0px 0px 0px 2px;
+
+}
+.alert{
+  width:100%;
+  border: solid 1px var(--main-color);
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: var(--elem-round-2);
+  overflow-x: scroll;
+}
+.card{
+  width: fit-content;
+  word-wrap: break-word;
+  border: solid 1px var(--main-color);
+  padding: 10px;
+  border-radius: var(--elem-round-2);
+
+  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
