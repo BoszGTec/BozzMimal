@@ -1,0 +1,8 @@
+<div style="min-height:100%" id="usage" class="flex j-ct-center">
+  <div style="width:90%;">
+    <h1>Usage</h1>
+    <p>Just Insert Link Tag</p>
+    {{download-pc}}
+    {{download-phone}}
+  </div>
+</div>
