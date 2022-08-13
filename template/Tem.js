@@ -20,8 +20,7 @@ const home_zone = '<div class="loop-ct">\n\
   <div class="loop2">\n\
     {{loop-button-2}}\n\
   </div>\n\
-</div>\n\
-'
+</div>\n'
 
 const download_zone = '<div style="min-height:100%" id="usage" class="flex j-ct-center">\n\
   <div style="width:90%;">\n\
@@ -30,7 +29,7 @@ const download_zone = '<div style="min-height:100%" id="usage" class="flex j-ct-
     {{download-pc}}\n\
     {{download-phone}}\n\
   </div>\n\
-</div>\n\'
+</div>\n'
 
 const download_pc = '<div class="flex small-hide" style="gap: 20px;">\n\
   <div style="width:50%;">\n\
@@ -43,7 +42,7 @@ const download_pc = '<div class="flex small-hide" style="gap: 20px;">\n\
   <div style="width:50%;">\n\
     {{file-link}}\n\
   </div>\n\
-</div>\n\'
+</div>\n'
 
 const download_phone = '<div class="med-hide large-hide">\n\
    <h2>Quick start</h2>\n\
@@ -54,4 +53,12 @@ const download_phone = '<div class="med-hide large-hide">\n\
 </div>\n\
 <div class="med-hide large-hide">\n\
     {{file-link}}\n\
-</div>\n\'
+</div>\n'
+
+const example = '<div id="example" class="flex j-ct-center">\n\
+    <div style="width:90%">\n\
+      <h1>Example</h1>\n\
+      {{example_element}}\n\
+    </div>\n\
+  </div>\n
+'
