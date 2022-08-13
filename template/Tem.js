@@ -1,3 +1,4 @@
+console.log("Tem connected")
 const home_zone = '<div class="loop-ct">\n\
   <div class="loop">\n\
     {{loop-button-1}}\n\
@@ -60,5 +61,4 @@ const example = '<div id="example" class="flex j-ct-center">\n\
       <h1>Example</h1>\n\
       {{example_element}}\n\
     </div>\n\
-  </div>\n
-'
+  </div>\n'
