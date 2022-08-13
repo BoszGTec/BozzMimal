@@ -28,7 +28,7 @@ https://boszgtec.github.io/BozzMimal/BozzMimal.css
 ```
 https://cdn.jsdelivr.net/gh/BoszGTec/BozzMimal/BozzMimal.min.css
 ```
-<img height="20px" src="https://cdn.discordapp.com/attachments/1008016294701961246/1008017774519537724/discord-icon.svg"/>CDN Discord
+<img height="15px" src="https://cdn.discordapp.com/attachments/1008016294701961246/1008017774519537724/discord-icon.svg"/>CDN Discord
 ```
 https://cdn.discordapp.com/attachments/1007947904960438343/1007960084304896010/BozzMimal.min.css
 ```
