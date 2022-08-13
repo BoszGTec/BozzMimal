@@ -24,8 +24,13 @@ add html tag`link rel="stylesheet" href={link}`in html.
 https://boszgtec.github.io/BozzMimal/BozzMimal.css
 ```
 #### Usewith CDN
+CDN Jsdeliver
 ```
 https://cdn.jsdelivr.net/gh/BoszGTec/BozzMimal/BozzMimal.min.css
+```
+CDN Discord
+```
+https://cdn.discordapp.com/attachments/1007947904960438343/1007960084304896010/BozzMimal.min.css
 ```
 
 ## Docs
