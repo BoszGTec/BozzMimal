@@ -1,0 +1,12 @@
+<div class="flex small-hide" style="gap: 20px;">
+  <div style="width:50%;">
+    <h2>Quick start</h2>
+    <p>add html tag<code>link rel="stylesheet" href={link}</code>in html.</p>
+    <pre>
+<code style="white-space: break-spaces;">{{code}}</code>
+    </pre>
+  </div>
+  <div style="width:50%;">
+    {{file-link}}
+  </div>
+</div>
