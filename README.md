@@ -35,3 +35,4 @@ https://cdn.discordapp.com/attachments/1007947904960438343/1007960084304896010/B
 
 ## Docs
 [BozzMimal](https://boszgtec.github.io/BozzMimal/)
+
